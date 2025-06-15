@@ -1,74 +1,69 @@
-=== WC Simple Wishlist ===
+=== Wisharo Wishlist ===
 Contributors: wprashed  
-Donate link: https://example.com/donate  
 Tags: wishlist, woocommerce, ecommerce, share wishlist, wishlist page  
 Requires at least: 5.4  
-Tested up to: 6.5  
-Requires PHP: 7.2  
+Tested up to: 6.8  
+Requires PHP: 7.4 
 Stable tag: 1.0.0  
 License: GPLv2 or later  
 License URI: https://www.gnu.org/licenses/gpl-2.0.html  
 
-A simple WooCommerce wishlist plugin that lets users create, manage, and share their favorite products.
+A lightweight WooCommerce wishlist plugin that lets users create, manage, and share their favorite products easily with a clean interface.
 
 == Description ==
 
-**WC Simple Wishlist** is a lightweight WooCommerce plugin that allows your customers to add products to their wishlist and share it with others using a unique public link.
+**Wisharo Wishlist** is a simple yet powerful WooCommerce plugin that enables your customers to add products to their wishlist and share it with others via a unique public URL.
 
 Key features:
 * Wishlist button on product and shop pages
 * Logged-in users can add/remove items from their wishlist
 * Dedicated wishlist page (`/wishlist/`)
-* Share wishlist with others via URL
-* Clean, minimal code — no bloat
+* Share wishlist publicly via unique link
+* Minimal code — optimized for speed and performance
 
-This plugin is perfect for eCommerce stores that want to improve user experience and increase conversions with product wishlists.
+Whether you're running a small shop or a large eCommerce store, Wisharo Wishlist is designed to boost conversions by improving the shopping experience.
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/wc-simple-wishlist` directory, or install the plugin via the WordPress plugins screen directly.
-2. Activate the plugin through the ‘Plugins’ screen in WordPress.
-3. Go to **Settings → Permalinks** and click **Save Changes** to register the new `wishlist` endpoint.
-4. You're ready! Logged-in users can start adding products to their wishlist.
+1. Upload the plugin files to the `/wp-content/plugins/wisharo-wishlist` directory, or install the plugin via the WordPress plugin screen.
+2. Activate the plugin through the **Plugins** screen in WordPress.
+3. Go to **Settings → Permalinks** and click **Save Changes** to register the `wishlist` endpoint.
+4. Done! Users can now start using the wishlist feature.
 
 == Frequently Asked Questions ==
 
 = Can users see their wishlist without logging in? =  
-No. Users must be logged in to create and manage their wishlist. However, wishlists can be shared publicly via a special link.
+No. Users must be logged in to create and manage their wishlist. However, wishlists can be shared with anyone via a public URL.
 
 = How can I display the wishlist page? =  
-The wishlist page is available at `/wishlist/` for each user. When a user shares their wishlist, others can view it using a link like:  
-`https://yoursite.com/wishlist/?user_id=123`
+Each user has a wishlist page accessible via `/wishlist/?user_id=123`. Users can copy and share this link with others.
 
 = Can guest users use the wishlist? =  
-Not yet. Currently, only logged-in users can use this feature. Guest wishlist functionality will be considered in future updates.
+Not at the moment. Guest support is planned for a future update.
 
 = Does it work with any WooCommerce theme? =  
-Yes, the plugin is designed to work with all WooCommerce-compatible themes.
+Yes, Wisharo Wishlist works out of the box with all WooCommerce-compatible themes.
 
 == Screenshots ==
 
 1. Wishlist button on the product page.
 2. Wishlist button on the shop loop.
 3. Shared wishlist page preview.
-4. Wishlist with copy/share URL input field.
+4. Wishlist page with copy/share URL input field.
 
 == Changelog ==
 
 = 1.0.0 =  
-* Initial release of the plugin.  
-* Wishlist functionality for logged-in users.  
-* Wishlist sharing via URL.  
-* Basic styling and JavaScript toggle support.
+* Initial release.
 
 == Roadmap ==
 
 * Guest wishlist support  
-* Wishlist management from My Account page  
-* Ajax-based loading  
-* Multiple wishlists per user  
-* Email sharing option
+* Wishlist tab in My Account page  
+* Ajax wishlist loading  
+* Support for multiple wishlists  
+* Option to email wishlists
 
 == License ==
 
-This plugin is licensed under the GPLv2 or later. See [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html) for more information.
+This plugin is licensed under the GPLv2 or later. See [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html) for full license information.
